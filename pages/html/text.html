@@ -1,0 +1,157 @@
+<div class="css-styles">
+    <div id="c37-margin-padding-settings">
+        <div class="section-header">Margin</div>
+        <div id="margin-tab">
+
+            <ul>
+                <li><a href="#c37-margin-settings"><i class="fa fa-desktop"></i></a></li>
+                <li><a href="#c37-margin-tablet-settings"><i class="fa fa-tablet"></i></a></li>
+                <li><a href="#c37-margin-phone-settings"><i class="fa fa-mobile-phone"></i></a></li>
+            </ul>
+
+            <div id="c37-margin-settings" data-for="margin">
+                <label class="c37-col-xs-3">
+                    Top: <input value="<%= styles['margin-top'] %>" type="number" class="top"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Right: <input value="<%= styles['margin-right'] %>" type="number" class="right"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Bottom: <input value="<%= styles['margin-bottom'] %>" type="number" class="bottom"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Left: <input value="<%= styles['margin-left'] %>" type="number" class="left"/>
+                </label>
+                <div class="clear"></div>
+            </div>
+
+            <div id="c37-margin-tablet-settings" data-for="margin-tablet">
+                <label class="c37-col-xs-3">
+                    Top: <input value="<%= getIntAttribute(styles, ['mobile', 'tablet', 'margin', 'top']) %>"
+                                type="number" class="top"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Right: <input value="<%= getIntAttribute(styles, ['mobile', 'tablet', 'margin', 'right']) %>"
+                                  type="number" class="right"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Bottom: <input value="<%= getIntAttribute(styles, ['mobile', 'tablet', 'margin', 'bottom']) %>"
+                                   type="number" class="bottom"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Left: <input value="<%= getIntAttribute(styles, ['mobile', 'tablet', 'margin', 'left']) %>"
+                                 type="number" class="left"/>
+                </label>
+                <div class="clear"></div>
+            </div>
+
+
+            <div id="c37-margin-phone-settings" data-for="margin-phone">
+                <label class="c37-col-xs-3">
+                    Top: <input value="<%= getIntAttribute(styles, ['mobile', 'phone', 'margin', 'top']) %>"
+                                type="number" class="top"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Right: <input value="<%= getIntAttribute(styles, ['mobile', 'phone', 'margin', 'right']) %>"
+                                  type="number" class="right"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Bottom: <input value="<%= getIntAttribute(styles, ['mobile', 'phone', 'margin', 'bottom']) %>"
+                                   type="number" class="bottom"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Left: <input value="<%= getIntAttribute(styles, ['mobile', 'phone', 'margin', 'left']) %>"
+                                 type="number" class="left"/>
+                </label>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+
+        <div class="section-header">Padding</div>
+        <div id="padding-tab">
+            <ul>
+                <li><a href="#c37-padding-settings"><i class="fa fa-desktop"></i></a></li>
+                <li><a href="#c37-padding-tablet-settings"><i class="fa fa-tablet"></i></a></li>
+                <li><a href="#c37-padding-phone-settings"><i class="fa fa-mobile-phone"></i></a></li>
+            </ul>
+
+            <div id="c37-padding-settings" data-for="padding">
+                <label class="c37-col-xs-3">
+                    Top: <input value="<%= styles['padding-top'] %>" type="number" class="top"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Right: <input value="<%= styles['padding-right'] %>" type="number" class="right"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Bottom: <input value="<%= styles['padding-bottom'] %>" type="number" class="bottom"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Left: <input value="<%= styles['padding-left'] %>" type="number" class="left"/>
+                </label>
+                <div class="clear"></div>
+            </div>
+
+            <div id="c37-padding-tablet-settings" data-for="padding-tablet">
+                <label class="c37-col-xs-3">
+                    Top: <input value="<%= getIntAttribute(styles, ['mobile', 'tablet', 'padding', 'top']) %>"
+                                type="number" class="top"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Right: <input value="<%= getIntAttribute(styles, ['mobile', 'tablet', 'padding', 'right']) %>"
+                                  type="number" class="right"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Bottom: <input value="<%= getIntAttribute(styles, ['mobile', 'tablet', 'padding', 'bottom']) %>"
+                                   type="number" class="bottom"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Left: <input value="<%= getIntAttribute(styles, ['mobile', 'tablet', 'padding', 'left']) %>"
+                                 type="number" class="left"/>
+                </label>
+                <div class="clear"></div>
+            </div>
+
+
+            <div id="c37-padding-phone-settings" data-for="padding-phone">
+                <label class="c37-col-xs-3">
+                    Top: <input value="<%= getIntAttribute(styles, ['mobile', 'phone', 'padding', 'top']) %>"
+                                type="number" class="top"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Right: <input value="<%= getIntAttribute(styles, ['mobile', 'phone', 'padding', 'right']) %>"
+                                  type="number" class="right"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Bottom: <input value="<%= getIntAttribute(styles, ['mobile', 'phone', 'padding', 'bottom']) %>"
+                                   type="number" class="bottom"/>
+                </label>
+
+                <label class="c37-col-xs-3">
+                    Left: <input value="<%= getIntAttribute(styles, ['mobile', 'phone', 'padding', 'left']) %>"
+                                 type="number" class="left"/>
+                </label>
+                <div class="clear"></div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
